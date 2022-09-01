@@ -1,19 +1,16 @@
-Whiterose, a DateTime Toolkit
-===
+# Whiterose - A Python DateTime Toolkit 
 
 _"The concept of waiting bewilders me. There are always deadlines. There are always ticking clocks. That's why you must manage your time"_
 
----
+- [localtime()](#localtime)
+- [today()](#today)
+- [Epoch, The Unix Timestamps Manager](#epoch-the-unix-timestamps-manager)
+    + [Epoch.dump()](#epochdump)
+    + [Epoch.load()](#epochload)
+    + [Epoch.now()](#epochnow)
+    + [Epoch.strfload()](#epochstrfload)
 
-+ [localtime()](#localtime--)
-+ [today()](#today--)
-+ [Unix Timestamps Toolkit](#unix-timestamps-toolkit)
-    * [Epoch.dump()](#epochdump--)
-    * [Epoch.load()](#epochload--)
-    * [Epoch.now()](#epochnow--)
-    * [Epoch.strfload()](#epochstrfload--)
-
----
+## Helper Functions
 
 ### localtime()
 
@@ -31,7 +28,7 @@ time.struct_time(...)
 '2020/12/18T16:24:58'
 ```
 
-### Unix Timestamps Toolkit
+## Epoch, The Unix Timestamps Manager
 
 ##### Epoch.dump()
 
