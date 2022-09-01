@@ -2,6 +2,14 @@
 
 _"The concept of waiting bewilders me. There are always deadlines. There are always ticking clocks. That's why you must manage your time"_
 
+## Dependencies
+
+```bash
+pip install requests pytz
+```
+
+## Toolkit
+
 - [localtime()](#localtime)
 - [today()](#today)
 - [Epoch, The Unix Timestamps Manager](#epoch-the-unix-timestamps-manager)
@@ -9,8 +17,6 @@ _"The concept of waiting bewilders me. There are always deadlines. There are alw
     + [Epoch.load()](#epochload)
     + [Epoch.now()](#epochnow)
     + [Epoch.strfload()](#epochstrfload)
-
-## Helper Functions
 
 ### localtime()
 
