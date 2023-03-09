@@ -1,0 +1,20 @@
+[project]
+name = "whiterose"
+version = "1.0.0"
+dependencies = [
+    "requests",
+    'pytx',
+]
+authors = [{name = "noize-e"}]
+description = "Python datetime toolkit"
+readme = "README.md"
+requires-python = ">=3"
+keywords = ["unix timestamp", "Epoch", "Datetime"]
+license = "LICENSE.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
