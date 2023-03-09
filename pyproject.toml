@@ -18,3 +18,7 @@ classifiers = [
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/noize-e/whiterose"
+"Bug Tracker" = "https://github.com/noize-e/whiterose/issues"
