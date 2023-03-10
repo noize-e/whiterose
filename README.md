@@ -1,11 +1,14 @@
 # Whiterose - A Python DateTime Toolkit 
 
-_"The concept of waiting bewilders me. There are always deadlines. There are always ticking clocks. That's why you must manage your time"_
+> _"The concept of waiting bewilders me. There are always deadlines. There are always ticking clocks. That's why you must manage your time"_
+> _Whiterose - Mr. Robot_
 
-## Dependencies
+## Install
+
+Until the test suite is uploaded, the toolkit can be installed from TestPyPi.
 
 ```bash
-pip install requests pytz
+pip install -i https://test.pypi.org/simple/ whiterose==1.0.0
 ```
 
 ## Toolkit
