@@ -2,7 +2,7 @@
 name = "whiterose"
 version = "1.0.0"
 dependencies = [
-    'pytx',
+    'pytz',
 ]
 authors = [{name = "noize-e"}]
 description = "Python datetime toolkit"
